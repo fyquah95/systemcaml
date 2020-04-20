@@ -1,5 +1,3 @@
-open! Base
+open! Core
 
-let () =
-  Stdio.print_endline "hello world"
-;;
+let () = Command.run Systemcaml_compiler.Commander.command

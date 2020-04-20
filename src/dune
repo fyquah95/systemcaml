@@ -1,8 +1,3 @@
 (library
- (name ocaml_fpga_hls)
- (libraries
-    base
-    core
-    hardcaml
-    stdio)
+ (name systemcaml)
  (preprocess (pps ppx_jane)))

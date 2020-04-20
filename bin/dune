@@ -1,4 +1,4 @@
 (executable
  (name main)
- (libraries core ocaml_fpga_hls)
+ (libraries core systemcaml_compiler)
  (preprocess (pps ppx_jane)))

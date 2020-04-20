@@ -1,0 +1,5 @@
+(library
+ (name systemcaml_examples)
+ (libraries systemcaml)
+ ; (preprocess (pps ppx_jane))
+ )
