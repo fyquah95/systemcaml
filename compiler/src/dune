@@ -6,7 +6,7 @@
     hardcaml
     stdio
     ocaml-compiler-libs.bytecomp
-    ocaml-compiler-libs.toplevel
+    ; ocaml-compiler-libs.toplevel
     ocaml-compiler-libs.optcomp
     ocaml-compiler-libs.common
     ocaml-compiler-libs.shadow

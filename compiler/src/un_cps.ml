@@ -9,7 +9,6 @@ let of_flambda_expr (expr : Flambda.Expr.t) =
   | Let_cont let_cont ->
     begin match let_cont with
       | Non_recursive { handler = _; num_free_occurrences = _ } ->
-        Non_recursive.
         ()
       | Recursive _ -> ()
     end
